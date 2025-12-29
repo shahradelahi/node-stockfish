@@ -1,8 +1,10 @@
-<div align="center">
+<p align="center">
   <a href="https://stockfishchess.org">
     <img src="https://stockfishchess.org/images/logo/icon_128x128.png" alt="Stockfish">
   </a>
-  <h3>Stockfish for Node.JS</h3>
+</p>
+<h1 align="center">
+  <sup>Stockfish for Node.JS</sup>
   <br>
   <p>
     <a href="https://github.com/shahradelahi/node-stockfish/actions/workflows/ci.yml">
@@ -19,9 +21,7 @@
       <img src="https://packagephobia.com/badge?p=@se-oss/stockfish" alt="Install Size">
     </a>
   </p>
-</div>
-
-<br>
+</h1>
 
 _@se-oss/stockfish_ is a high-performance, TypeScript-first Node.js wrapper for the Stockfish 17.1 WASM chess engine. It provides a convenient API for integrating powerful chess analysis capabilities into your applications, offering functionalities such as position analysis, best move calculation, and direct UCI command interaction.
 
@@ -36,8 +36,25 @@ _@se-oss/stockfish_ is a high-performance, TypeScript-first Node.js wrapper for 
 ## 📦 Installation
 
 ```bash
-pnpm add @se-oss/stockfish
+npm i @se-oss/stockfish
 ```
+
+<details>
+<summary>Install using your favorite package manager</summary>
+
+**pnpm**
+
+```bash
+pnpm install @se-oss/stockfish
+```
+
+**yarn**
+
+```bash
+yarn add @se-oss/stockfish
+```
+
+</details>
 
 ## 📖 Usage
 
@@ -54,8 +71,8 @@ const analysis = await engine.analyze(
   15
 );
 
-console.log('Best move:', analysis.bestmove);
-console.log('Score:', analysis.lines[0].score);
+console.log('Best move:', analysis.bestmove); // e2e4
+console.log('Score:', analysis.lines[0].score); // { type: 'cp', value: 39 }
 ```
 
 ### Advanced UCI Commands
