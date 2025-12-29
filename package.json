@@ -1,6 +1,6 @@
 {
   "name": "@se-oss/stockfish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-performance chess engine utility using Stockfish 17.1 WASM",
   "keywords": [
     "stockfish",
