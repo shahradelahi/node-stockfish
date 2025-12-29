@@ -11,7 +11,7 @@
       <img src="https://github.com/shahradelahi/node-stockfish/actions/workflows/ci.yml/badge.svg?branch=main&event=push" alt="CI">
     </a>
     <a href="https://www.npmjs.com/package/@se-oss/stockfish">
-      <img src="https://img.npmjs.com/npm/v/@se-oss/stockfish.svg" alt="NPM Version">
+      <img src="https://img.shields.io/npm/v/@se-oss/stockfish.svg" alt="NPM Version">
     </a>
     <a href="/LICENSE">
       <img src="https://img.shields.io/badge/License-GPL3.0-blue.svg?style=flat" alt="GPL-3.0 License">
